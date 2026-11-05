@@ -1,0 +1,24 @@
+{
+  "author": "Королев Даниил",
+  "group": "636-02",
+  "seed": 42,
+  "train_rows": 3600,
+  "external_rows": 900,
+  "selected_method": "Цвет и текстура + PCA95%",
+  "selection_uses_labels": false,
+  "n_clusters": 9,
+  "silhouette_sample_size": 1000,
+  "pca_components": 21,
+  "metrics": {
+    "ARI": 0.18765058753793426,
+    "NMI": 0.3330984312797894,
+    "Silhouette": 0.22035705839093891
+  },
+  "report_characters": 1489,
+  "python": "3.12.14",
+  "source_sha256": {
+    "dataset/task3_2/train.npz": "58d84bd63ecd09211b7aaf01dfb72f6035c96a3254ec0f585359d60ade1466b3",
+    "dataset/task3_2/test_features.npz": "02ee1c140d763d9b3cdd225cc9d145475aa524219d9c581356184daf303ec39e"
+  },
+  "predictions_sha256": "08b69d08ea197104a1200978fc45321dc1eb5e151de6239257675ade736aac37"
+}

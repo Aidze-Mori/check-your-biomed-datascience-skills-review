@@ -1,0 +1,14 @@
+{
+  "rows": 900,
+  "ids_exact_match": true,
+  "code_cells": 9,
+  "figures": 7,
+  "report_characters": 1489,
+  "metrics_recomputed": true,
+  "pipeline_reproduces_csv": true,
+  "label_permutation_leaves_predictions_unchanged": true,
+  "author": "Королев Даниил",
+  "group": "636-02",
+  "checked_on": "2026-11-06",
+  "rendered_html_checked": true
+}
