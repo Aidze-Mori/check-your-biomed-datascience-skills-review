@@ -1,0 +1,67 @@
+{
+  "author": "Королев Даниил",
+  "group": "636-02",
+  "seed": 42,
+  "device": "cpu",
+  "train_rows": 2800,
+  "validation_rows": 600,
+  "internal_test_rows": 600,
+  "external_rows": 1000,
+  "best_epoch": 20,
+  "epochs_run": 35,
+  "best_validation_macro_f1": 0.5749040112679346,
+  "internal_test_accuracy": 0.9133333333333333,
+  "internal_test_macro_f1": 0.581539144752574,
+  "confusion_matrix": [
+    [
+      341,
+      1,
+      3,
+      2,
+      3
+    ],
+    [
+      1,
+      185,
+      12,
+      11,
+      3
+    ],
+    [
+      0,
+      1,
+      10,
+      0,
+      1
+    ],
+    [
+      0,
+      6,
+      2,
+      12,
+      3
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "class_weights": [
+    0.34250763058662415,
+    0.5656565427780151,
+    10.566038131713867,
+    5.137614727020264,
+    43.07692337036133
+  ],
+  "python": "3.12.14",
+  "torch": "2.14.1",
+  "sklearn": "1.9.1",
+  "source_sha256": {
+    "train.csv": "f68a8b43becb0fb7cd9e06f970be70117bd3600c54814e329f194c719402ce4a",
+    "test_features.csv": "55824050ae4ea871db339d824826b92a3b86a20e8ab399d2aa5219b11e21b02c"
+  },
+  "predictions_sha256": "fcd82c0a75861b3a02b33f634468063e32d880e24b1b4dad3b813e4603ca9c09"
+}
