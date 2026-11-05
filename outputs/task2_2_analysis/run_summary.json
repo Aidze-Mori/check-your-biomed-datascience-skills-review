@@ -1,0 +1,39 @@
+{
+  "author": "Королев Даниил",
+  "group": "636-02",
+  "seed": 42,
+  "train_rows": 48,
+  "external_rows": 24,
+  "features": [
+    "STD",
+    "Размах 5–95%",
+    "Шероховатость",
+    "Асимметрия",
+    "Эксцесс",
+    "Энтропия спектра",
+    "Доля 0.5–3.5 Гц",
+    "Доля 3.5–15 Гц",
+    "Доминирующая частота",
+    "Пики/с",
+    "Средний интервал",
+    "STD интервалов",
+    "Автокорреляция"
+  ],
+  "selected_method": "Внутри испытуемого",
+  "selection_uses_activity_labels": false,
+  "metrics": {
+    "ARI активности": 0.23931106110437944,
+    "NMI активности": 0.258411352892681,
+    "Silhouette": 0.17254045721048591,
+    "ARI испытуемого": -0.02323634079966506
+  },
+  "n_clusters": 3,
+  "pca_components": 8,
+  "report_characters": 1351,
+  "python": "3.12.14",
+  "source_sha256": {
+    "dataset/task2_2/train.npz": "e3f44ac77d022e4f274046cc4dd05c8fa221a2db11ac27b9540a921774374113",
+    "dataset/task2_2/test_features.npz": "8d7d59eb4c651d7ce19e11025d0dd8c7c27ff0e480540d6a06992ef313d42e90"
+  },
+  "predictions_sha256": "ca0022628ee4cda35e45948fc8125337addaaf590592840f6d183468ba7b7d83"
+}
